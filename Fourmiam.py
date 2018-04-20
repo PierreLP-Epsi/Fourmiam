@@ -64,6 +64,7 @@ path_edges = zip(path, path[1:])
 print(path)
 print(nx.shortest_path_length(pathways, "SAUTRON Rue de la Bastille", "SAUTRON Rue de Bretagne", "WEIGHT"))
 
+# Coloration du chemin le plus court sur le graph (nécessite plus de mémoire)
 # pos = nx.spring_layout(pathways)
 # nx.draw(pathways, pos, node_color='k')
 # nx.draw_networkx_nodes(pathways, pos, nodelist=path, node_color='r')
